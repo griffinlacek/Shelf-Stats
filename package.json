@@ -1,0 +1,25 @@
+{
+  "name": "shelf-stats",
+  "version": "1.0.0",
+  "description": "Personal reading statistics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Griffin Lacek",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "env2": "^2.1.1",
+    "glue": "^3.4.0",
+    "google-books-search": "^0.3.0",
+    "hapi": "^14.2.0",
+    "hapi-login": "^1.2.0",
+    "isbn": "^0.4.0",
+    "joi": "^9.0.4",
+    "node-isbn-catalogue": "^1.2.3",
+    "request": "^2.74.0",
+    "xml2js": "^0.4.17"
+  }
+}
